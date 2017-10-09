@@ -1,0 +1,41 @@
+{
+  "data": {
+    "articles": [
+      {
+        "title": "Article One",
+        "body": "My first post",
+        "createdAt": "2017-10-09T13:26:25.115Z",
+        "updatedAt": "2017-10-09T13:26:25.115Z",
+        "id": 1
+      },
+      {
+        "title": "Article Two",
+        "body": "My second post",
+        "createdAt": "2017-10-09T13:27:14.661Z",
+        "updatedAt": "2017-10-09T13:27:14.661Z",
+        "id": 2
+      }
+    ]
+  },
+  "schema": {
+    "articles": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "articles": {
+      "id": 2
+    }
+  }
+}
